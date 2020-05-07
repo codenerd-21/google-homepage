@@ -19,6 +19,13 @@ header {
   padding: 5px 10%;
 }
 
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+}
+
 .nav__links {
   list-style: none;
 }
@@ -31,6 +38,11 @@ header {
 .nav__links li a:hover {
   text-decoration: underline;
 }
+
+.nav__about {
+  margin-right: auto;
+}
+
 
 #signin__btn {
   background-color: #4387fd;
